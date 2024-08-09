@@ -1,0 +1,7 @@
+useEffect(() => {
+  setPossessions([
+    { libelle: 'Maison', valeurInitiale: 500000, dateDebut: '2020-01-01', dateFin: '2030-01-01', amortissement: 5000, valeurActuelle: 450000 },
+    { libelle: 'Voiture', valeurInitiale: 30000, dateDebut: '2022-01-01', dateFin: '2027-01-01', amortissement: 3000, valeurActuelle: 27000 },
+    // Ajoutez d'autres possessions ici
+  ]);
+}, []);
