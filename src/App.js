@@ -6,8 +6,14 @@ import { Table, Form, Button } from 'react-bootstrap';
 const possessions = [
   { id: 1, libelle: 'Maison', valeurInitiale: 100000, dateDebut: '2020-01-01', dateFin: '2030-01-01', amortissement: 1000 },
   { id: 2, libelle: 'Voiture', valeurInitiale: 20000, dateDebut: '2022-01-01', dateFin: '2027-01-01', amortissement: 200 },
+  { id: 3, libelle: 'Ordinateur Portable', valeurInitiale: 1500, dateDebut: '2021-09-01', dateFin: '2025-09-01', amortissement: 150 },
+  { id: 4, libelle: 'Mobilier', valeurInitiale: 5000, dateDebut: '2019-06-01', dateFin: '2029-06-01', amortissement: 500 },
+  { id: 5, libelle: 'Terrain', valeurInitiale: 75000, dateDebut: '2018-03-01', dateFin: '2038-03-01', amortissement: 0 },
+  { id: 6, libelle: 'Télévision', valeurInitiale: 1200, dateDebut: '2020-11-01', dateFin: '2025-11-01', amortissement: 240 },
+  { id: 7, libelle: 'Bateau', valeurInitiale: 30000, dateDebut: '2023-04-01', dateFin: '2033-04-01', amortissement: 300 },
   // Ajoutez plus de possessions ici si nécessaire
 ];
+
 
 function App() {
   const [selectedDate, setSelectedDate] = useState('');
